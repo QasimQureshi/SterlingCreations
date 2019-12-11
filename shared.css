@@ -1,0 +1,174 @@
+.main-header {
+  width: 100%;
+  left: 0;
+}
+
+.skipToContentBtn {
+  position: absolute;
+  top: -50px;
+  display: block;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 3px;
+}
+
+@media (max-width: 920px) {
+  .navbar-brand {
+    font-size: inherit !important;
+    line-height: 2.5 !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .navbar-brand {
+    line-height: 4.3 !important;
+    font-size: 0.6em !important;
+  }
+}
+
+a.skipToContentBtn:active,
+a.skipToContentBtn:focus,
+a.skipToContentBtn:hover{
+  top: 0;
+}
+
+/* Top logo */
+.logo {
+  font-size: 2em;
+}
+
+a:visited {
+  outline: none;
+}
+
+a:active {
+  outline: 1px;
+}
+
+.navbar-brand > img {
+  height: 100px;
+}
+
+.navbar-brand {
+  line-height: 1.2;
+  /*  font-weight: 3;*/
+  font-size: 2em;
+  font-style: italic;
+  /* letter-spacing: 3px; */
+  font-weight: bold;
+  color: rgb(18,24,116);
+}
+
+
+/* Navbar related styles (responsive and full-screen navbars) */
+.navbar-root {
+  background-color: #343a40;
+  /*  border-top: 3px solid rgb(234, 220, 129);*/
+  /*  border-top: 2px solid #93c5ff;*/
+}
+
+.navbar-root > .container > .navbar {
+/*  padding-top: 0;*/
+/*  padding-bottom: 0;*/
+}
+
+.navbar-root > .navbar > .navbar-collapse a:hover {
+  border-bottom: 1px dotted gray;
+}
+
+body {
+/*  background-color: #f7f7f7;*/
+  font-size: 1.2em;
+}
+
+main {
+  padding: 50px 150px;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0px -6px 5px 0px #eee;
+  overflow: hidden;
+  color: #121874;
+}
+
+main > .row > section > img {
+  width: 109%;
+  height: 100%;
+  position: relative;
+  top: -50px;
+}
+
+footer {
+  background-color: rgb(105, 105, 105);
+  color: #fff;
+}
+
+footer > .container > a {
+  color: white;
+}
+
+.navbar-root > .container > .navbar > .navbar-collapse > .navbar-nav > .nav-item > a {
+/*  padding-top: 1rem;*/
+/*  padding-bottom: 1rem;*/
+  transition: 0.1s linear background-color;
+/*  transition: 0.1s linear color;*/
+}
+
+.navbar-root > .container > .navbar > .navbar-collapse > .navbar-nav > .nav-item > a:hover {
+  background-color: #0056b3;
+  color: white;
+  border-radius: 5px;
+}
+
+section.accessibility-links > div > a {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  position: relative;
+  min-height: 100px;
+  margin: 12px 0;
+/*  font-size: 0.9em;*/
+  color: #333;
+}
+
+section.accessibility-links > div > a > span {
+  padding: 0 10px 0 50px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+}
+
+section.accessibility-links > div > a:hover {
+/*  text-decoration: underline; */
+  color: dodgerblue;
+/*  border-color: #aaa;*/
+}
+
+section.accessibility-links > div > a:hover > i {
+/*  color: #007bff;*/
+}
+
+section.accessibility-links > div > a > i {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  font-size: 1.5em;
+/*  color: gold;*/
+}
+
+.breadcrumb {
+  background-color: white;
+}
+
+main > section.row > section > p {
+  max-width: 626px;
+}
+
+.max-width-constrained {
+  max-width: 710px
+  
+}
