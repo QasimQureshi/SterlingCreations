@@ -172,3 +172,44 @@ main > section.row > section > p {
   max-width: 710px
   
 }
+
+/* awards images */
+
+.awards-image-link {
+  margin: 15px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.awards-image-link.left {
+  float: left;
+  margin-left: 0;
+}
+
+.awards-image-link.right {
+  float: right;
+  margin-right: 0;
+}
+
+.awards-image-link > img {
+  max-height: 120px;
+}
+
+@media (max-width: 768px) {
+  .awards-image-link {
+    float: none;
+    width: 100%;
+  }
+
+  .awards-image-link.left, .awards-image-link.right {
+    margin: 0 15px 15px 15px;
+  }
+
+  .awards-image-link > img {
+    max-height: none;
+  }
+}
+
+.shared-max-width {
+  max-width: 650px;
+}
